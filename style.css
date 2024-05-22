@@ -1,0 +1,54 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px 0px 20px;
+}
+
+#center, #header-left, #header-right{
+    display: flex;
+}
+
+.right-btn, .center-btn{
+    border: 0;
+    background-color: white;
+}
+
+.right-btn{
+    font-size: 17px;
+    padding: 0px 10px 0px 10px;
+}
+
+#contact{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.center-btn{
+    padding: 0px 17px 0px 17px;
+    font-size: 20px;
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+#church{
+    letter-spacing: 10px;
+    font-size: 35px;
+    margin: 0;
+}
+
+#church-spelled{
+    margin: 0;
+    font-size: 15px;
+}
+
+img {
+    height: 64px; /*height of parent container*/
+    object-fit: contain;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
