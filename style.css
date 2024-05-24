@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #EEE2DC;
 }
 
 #header{
@@ -20,7 +21,7 @@ body{
     flex: 1;
     display: flex;
     justify-content: space-between;
-    padding: 8px 20px 0px 20px;
+    padding: 8px 20px 8px 20px;
     max-width: 1912px;
 }
 
@@ -30,7 +31,7 @@ body{
 
 #header-left{
     display:flex;
-    align-items: left;
+    align-items: center;
 }
 
 .right-btn, .center-btn{
@@ -81,8 +82,8 @@ body{
   #content{
     display: flex;
     flex-direction: column;
-    align-items: center;
     max-width: 1912px;
+    background-color: white;
   }
 
   #top-section{
@@ -104,4 +105,48 @@ body{
   #daily-title{
     font-size: 20px;
     font-weight: 800;
+  }
+  #story{
+    display:flex;
+    padding: 0 5% 0 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #believer, #unsure, #non-believer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+  }
+
+  #believer-icon, #unsure-icon, #non-beliver-icon{
+    max-width: 250px;
+    mix-blend-mode: multiply;
+  }
+
+  #join-us{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  #live-time{
+    display:flex;
+    justify-content: center;
+  }
+
+  #english-live, #chinese-live{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #live{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
   }
