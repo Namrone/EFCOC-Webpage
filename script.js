@@ -1,26 +1,26 @@
-const blvrBox = document.querySelector("#believer");
+const blvrBox = document.querySelector(".believer");
 blvrBox.addEventListener("mouseenter", function() {
-    blvrBox.style.background = "#FCE181";
+    this.classList.add("slide-selected");
 });
 
 blvrBox.addEventListener("mouseleave", function(){
-    blvrBox.style.background = "white";
+    this.classList.remove("slide-selected");
 })
 
-const unsureBox = document.querySelector("#unsure");
+const unsureBox = document.querySelector(".unsure");
 unsureBox.addEventListener("mouseenter", function() {
-    unsureBox.style.background = "#9FEDD7";
+    this.classList.add("slide-selected");
 });
 
 unsureBox.addEventListener("mouseleave", function(){
-    unsureBox.style.background = "white";
+    this.classList.remove("slide-selected");
 })
 
-const nonBelieveBox = document.querySelector("#non-believer");
+const nonBelieveBox = document.querySelector(".non-believer");
 nonBelieveBox.addEventListener("mouseenter", function() {
-    nonBelieveBox.style.background = "#026670";
+    this.classList.add("slide-selected");
 });
 
 nonBelieveBox.addEventListener("mouseleave", function(){
-    nonBelieveBox.style.background = "white";
+    this.classList.remove("slide-selected");
 })

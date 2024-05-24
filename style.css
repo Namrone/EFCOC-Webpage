@@ -113,7 +113,7 @@ body{
     justify-content: center;
   }
 
-  #believer, #unsure, #non-believer{
+  .believer, .unsure, .non-believer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +121,19 @@ body{
     justify-content: center;
     gap: 20px;
     flex: 1;
+    transition: background-position 0.5s;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, white 50%, var(--slide-color) 50%);
+    background-position: 0 -100%;
+  }
+  
+  .slide-selected {
+    background-position: 0 0;
+  }
+  
+
+  .slide-selected{
+    background-position: 0 0;
   }
 
   #believer-icon, #unsure-icon, #non-beliver-icon{
